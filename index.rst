@@ -10,6 +10,12 @@ Welcome to test's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+This is test.
+
+Some verbatim test ::
+
+    Žaba, češnja...
+    End of verbatim.
 
 
 Indices and tables
