@@ -14,7 +14,8 @@ This is test.
 
 Some verbatim test ::
 
-    Žaba, češnja...
+    Begin verbatim.
+    Žaba, češnja...     <- this is the problem
     End of verbatim.
 
 
