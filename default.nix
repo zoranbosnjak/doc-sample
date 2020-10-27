@@ -13,9 +13,7 @@ let
   ];
 
   fontconf = pkgs.makeFontsConf { fontDirectories = [
-    pkgs.texlive.cm.pkgs
     pkgs.texlive.dejavu.pkgs
-    pkgs.texlive.dejavu-otf.pkgs
   ]; };
 
   envVars = ''
@@ -34,7 +32,6 @@ let
     preBuild = envVars;
     FONTCONFIG_FILE = fontconf;
     buildPhase = ''
-      mkdir -p $out
       make latexpdf
     '';
     installPhase = ''
